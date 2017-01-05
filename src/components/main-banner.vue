@@ -1,4 +1,10 @@
 <template>
+    <div class="parent-root">
+    
+    <!-- Router Link -->
+    <router-link to="/">Go To root Route</router-link>
+    <router-link to="/foo">Go To Foo Route</router-link>
+    
     <div class="main-banner">
         <div class="row full-width">
             <div class="small-12 columns">
@@ -8,6 +14,7 @@
             </div>
         </div>
     </div>
+  </div>
 </template>
 
 <script>
