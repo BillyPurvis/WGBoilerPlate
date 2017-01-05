@@ -14,6 +14,13 @@
             </div>
         </div>
     </div>
+
+    <div class="slider">
+  <div id="one">your content</div>
+  <div id="two">your content</div>
+  <div id="three">your content</div>
+</div>
+
   </div>
 </template>
 
@@ -28,13 +35,28 @@ export default {
       ]
     }
   },
-  created: function () {
+  mounted: function () {
     this.slick() // uses lifeCycle hook to call method once the Vue instance is made
   },
   methods: {
     slick: function () {
-      console.log('Slick')
+      $('.slider').slick()
     }
   }
 }
 </script>
+<style scoped>
+  .slider > div {
+  width: 200px;
+  height: 200px;
+}
+#one {
+  background: blue;
+}
+#two {
+  background: orange
+}
+#three {
+  background: green;
+}
+</style>
