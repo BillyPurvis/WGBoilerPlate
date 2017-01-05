@@ -1,0 +1,77 @@
+@import url(../../assets/plugins/foundation/css/foundation.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700");
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #292929;
+}
+
+.full-width {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+.title-interna {
+  font-size: 24px;
+  font-weight: 700;
+  color: #9F7F4B;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.main-header {
+  background-color: #292929;
+  height: 100px;
+  position: relative;
+}
+.main-header .logo {
+  margin-top: 5px;
+}
+.main-header .main-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.main-header .main-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.main-header .main-menu li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.main-header .main-menu a {
+  font-size: 18px;
+  color: #DAD6D3;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: 0.2s ease;
+}
+.main-header .main-menu a:hover {
+  text-shadow: 0 0 7px #DAD6D3;
+}
+.main-header .main-menu .page-active a {
+  text-shadow: 0 0 7px #DAD6D3;
+}
+.main-header:after {
+  content: '';
+  height: 4px;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  background-color: #9F7F4B;
+}
+
+.main-banner .full-width .columns {
+  padding: 0;
+}
+
+/*# sourceMappingURL=app.css.map */
