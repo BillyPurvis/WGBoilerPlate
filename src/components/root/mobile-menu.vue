@@ -23,10 +23,6 @@ export default {
         { anchor: {address: 'contato.html', name: 'contato'} }
       ]
     }
-  },
-
-  mounted: function () {
-    this.svgMenu()
   }
 }
 </script>

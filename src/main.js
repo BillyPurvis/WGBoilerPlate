@@ -1,5 +1,14 @@
+
+// Set jQuery Globally accessible
+window.$ = jQuery
+
+// Require Vue modules
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
+// Import Slick and jQuery
+import jQuery from 'jquery'
+import 'slick-carousel'
 
 // Use VueRouter for Vue
 Vue.use(VueRouter)

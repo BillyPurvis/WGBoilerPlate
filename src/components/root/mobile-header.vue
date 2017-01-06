@@ -24,14 +24,6 @@ export default {
     return {
       url: require('assets/img/logo/logo.png')
     }
-  },
-
-  mounted: function () {
-    this.svgMenu()
-  },
-
-  methods: {
-    svgMenu () {}
   }
 }
 </script>
