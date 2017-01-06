@@ -1,9 +1,21 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## [0.0.1] - [Unreleased] - [Billy Purvis] - 05-01-2017 
+## [0.0.2] - [Unreleased] - [Gustavo Domaradzki] - 06-01-2017
 
-### Added 
+### Added
+- webgopher-components partials
+- main-footer component
+
+### Changed
+- added all styles used in footer
+- slick banner is now working
+- added dots to slick banner
+- added arrows to slick banner
+
+## [0.0.1] - [Unreleased] - [Billy Purvis] - 05-01-2017
+
+### Added
 - Slick.css cdn
 - Added VueRouter
 - Added Foo.vue component
