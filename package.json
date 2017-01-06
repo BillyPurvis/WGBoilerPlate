@@ -10,7 +10,9 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "d3-ease": "^1.0.2",
     "jquery": "^3.1.1",
+    "segment-js": "^1.0.8",
     "vue": "^2.1.0",
     "vue-router": "^2.1.1"
   },
