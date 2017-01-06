@@ -1,6 +1,23 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.0.5] - [Unreleased] - [Billy Purvis] - 06-01-2017
+
+### Added
+- Commented App.vue
+- Commented main.js
+
+### Changed
+- Cleaned formatting of App.vue
+
+### Removed
+- Foo.vue component (unrequired)
+- Removed references of Foo.vue
+
+### Comments
+- Compiling is much faster now with better formatting and removing redundant
+  components/VueRouter code that isn't being used
+
 ## [0.0.4] - [Unreleased] - [Billy Purvis] - 06-01-2017
 
 ### Added

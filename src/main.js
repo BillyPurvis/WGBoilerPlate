@@ -15,7 +15,6 @@ Vue.use(VueRouter)
 
 // Import all the components here
 import App from './App'
-import Foo from './components/Foo'
 
 /* eslint-disable no-new */
 
@@ -23,9 +22,7 @@ import Foo from './components/Foo'
 const router = new VueRouter({
   mode: 'history', // pushes to browser history API
   base: __dirname,
-  routes: [
-    { path: '/foo', component: Foo, name: 'Foo' }
-  ]
+  routes: []
 })
 
 // Extend Vue to use router obj then mount

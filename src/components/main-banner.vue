@@ -1,10 +1,6 @@
 <template>
     <div class="parent-root">
-
-    <!-- Router Link -->
-    <!-- <router-link to="/" class="tet">Pagina Principal</router-link>
-    <router-link to="/foo" class="tet">Pagina da Rota</router-link> -->
-
+    <!-- Main Slick Banner -->
     <div class="main-banner">
         <div class="row full-width">
             <div class="small-12 columns">
@@ -30,9 +26,11 @@ export default {
     }
   },
   mounted: function () {
-    this.slick() // uses lifeCycle hook to call method once the Vue instance is made
+    // Use lifeCycle hook to call method once the Vue instance is made
+    this.slick()
   },
   methods: {
+    // Slick funciton for main-banners
     slick: function () {
       $('.banner-carousel').slick({
         infinite: true,
