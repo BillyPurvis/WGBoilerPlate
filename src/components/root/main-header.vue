@@ -25,6 +25,8 @@ export default {
       links: [
         { anchor: {address: 'index.html', name: 'home'} },
         { anchor: {address: 'empresa.html', name: 'empresa'} },
+        { anchor: {address: 'produtos.html', name: 'produtos'} },
+        { anchor: {address: 'servicos.html', name: 'serviços'} },
         { anchor: {address: 'fotos.html', name: 'fotos'} },
         { anchor: {address: 'contato.html', name: 'contato'} }
       ]
