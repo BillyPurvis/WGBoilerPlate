@@ -56,7 +56,8 @@ p {
   transition: 0.2s ease;
 }
 .main-header .main-menu a:hover {
-  text-shadow: 0 0 7px #DAD6D3;
+  text-shadow: 0 0 7px #9F7F4B;
+  color: #9F7F4B;
 }
 .main-header .main-menu .page-active a {
   text-shadow: 0 0 7px #DAD6D3;
@@ -70,8 +71,119 @@ p {
   background-color: #9F7F4B;
 }
 
+.main-banner {
+  margin-bottom: 60px;
+  position: relative;
+}
 .main-banner .full-width .columns {
   padding: 0;
+}
+.main-banner .slick-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+}
+.main-banner .slick-dots li {
+  background-color: #9F7F4B;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #9F7F4B;
+  margin-right: 15px;
+  list-style-type: none;
+}
+.main-banner .slick-dots li button {
+  width: 100%;
+}
+.main-banner .slick-dots li:last-of-type {
+  margin-right: 0;
+}
+.main-banner .slick-dots .slick-active {
+  background-color: #c7af89;
+  color: #c7af89;
+}
+
+.main-footer:before {
+  content: '';
+  height: 4px;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  background-color: #9F7F4B;
+}
+.main-footer h4 {
+  color: #DAD6D3;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.main-footer .footer-menu ul, .main-footer .contato-menu ul {
+  padding: 0;
+  margin: 0;
+}
+.main-footer .footer-menu li, .main-footer .contato-menu li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.main-footer .footer-menu li a, .main-footer .contato-menu li a {
+  font-size: 16px;
+  color: #DAD6D3;
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+  transition: 0.2s ease;
+  margin-left: 10px;
+}
+.main-footer .footer-menu li a:before, .main-footer .contato-menu li a:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #9F7F4B;
+  transition: 0.2s ease;
+  opacity: 0;
+}
+.main-footer .footer-menu li a:active, .main-footer .contato-menu li a:active {
+  color: #9F7F4B;
+}
+.main-footer .footer-menu li a:hover, .main-footer .contato-menu li a:hover {
+  color: #9F7F4B;
+}
+.main-footer .footer-menu li a:hover:before, .main-footer .contato-menu li a:hover:before {
+  opacity: 1;
+}
+.main-footer .contato-menu li a {
+  margin-left: 0;
+  text-transform: none;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  cursor: pointer;
+}
+.arrow polygon {
+  transition: 0.2s ease;
+}
+.arrow:hover polygon {
+  fill: #434343;
+}
+
+.left {
+  left: 50px;
+}
+
+.right {
+  right: 50px;
 }
 
 /*# sourceMappingURL=app.css.map */

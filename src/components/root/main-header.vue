@@ -7,7 +7,7 @@
     		<div class="small-9 columns">
 				<nav class="main-menu">
 					<ul>
-						<li v-if="links!=null" v-for="link in links">
+						<li v-if="links!=null" v-for="link of links">
 							<a v-bind:href='link.anchor.address'>{{ link.anchor.name }}</a>
 						</li>
 					</ul>

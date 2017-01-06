@@ -1,0 +1,27 @@
+/////////////////////////////////////////////
+//			      	ARROWS	          			 //
+/////////////////////////////////////////
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  cursor: pointer;
+  polygon {
+    @include trans-ease(.2s);
+  }
+
+  &:hover {
+    polygon {
+      fill: lighten($secondary, 10%);;
+    }
+  }
+}
+
+.left {
+  left: 50px;
+}
+
+.right {
+  right: 50px;
+}

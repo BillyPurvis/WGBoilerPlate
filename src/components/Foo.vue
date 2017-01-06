@@ -1,13 +1,13 @@
 <template>
   <div class="root-cont">
     <h1>{{ msg }}</h1>
-    <h2>Route Name is {{ routeName }}</h2>
+    <h2>PIROCA ALADA {{ routeName }}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'foo',
+  name: 'Teste',
   components: {
   },
   data () {
