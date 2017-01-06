@@ -15,9 +15,9 @@
         <h4>{{ title[1] }}</h4>
         <div v-if="enderecos!=null" class="footer-endereco" v-for="endereco of enderecos">
           <h5>{{ endereco.cidade }}</h5>
-          <p>
-            {{ endereco.rua }} - {{ endereco.numero }}<br>{{ endereco.cep }}
-          </p>
+          <a href="#">
+            {{ endereco.rua }} - {{ endereco.numero }}<br>CEP: {{ endereco.cep }}
+          </a>
         </div>
       </div>
       <div class="small-12 medium-4 large-4 columns">
@@ -39,6 +39,18 @@
           </nav>
         </div>
       </div>
+      <div class="small-12 medium-12 large-3 columns">
+        <div class="newsletter-container">
+          <h4>{{ title[4] }}</h4>
+          <p>Cadastre seu email em nossa newsletter e receba todas as nossas novidades,
+              promoções e notícias na íntegra! Tenha tudo em primeira mão.</p>
+          <form method="post"  class="news-container" action="http://www.nossomarketing.com.br/emarketing/form.php?form=83" id="frmSS83" onsubmit="return CheckForm83(this);">
+              <input type="email" class="text-news parsley-validated" name="email" placeholder="Digite seu email aqui" required>
+              <input type="hidden" name="format" value="h">
+              <input type="submit" name="enviar" class="button tiny button-news" value="Cadastrar">
+          </form>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -47,10 +59,12 @@
 export default {
   data () {
     return {
-      title: ['menu', 'endereco', 'horário de atendimento', 'contato'],
+      title: ['menu', 'endereco', 'horário de atendimento', 'contato', 'newsletter'],
       links: [
         { anchor: {address: 'index.html', name: 'home'} },
         { anchor: {address: 'empresa.html', name: 'empresa'} },
+        { anchor: {address: 'produtos.html', name: 'produtos'} },
+        { anchor: {address: 'servicos.html', name: 'serviços'} },
         { anchor: {address: 'fotos.html', name: 'fotos'} },
         { anchor: {address: 'contato.html', name: 'contato'} }
       ],
