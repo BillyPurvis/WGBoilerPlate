@@ -18,7 +18,6 @@
   </header>
 </template>
 
-<script src="../../../static/js/scripts.js" type="text/javascript"></script>
 <script>
 export default {
   data () {

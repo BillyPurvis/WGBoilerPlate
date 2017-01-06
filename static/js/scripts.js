@@ -1,10 +1,10 @@
 (function svgMenu() {
 	var pathA = document.getElementById('pathA'),
-		pathB = document.getElementById('pathB'),
-	    pathC = document.getElementById('pathC'),
-	    segmentA = new Segment(pathA, 8, 32),
-		segmentB = new Segment(pathB, 8, 32),
-	    segmentC = new Segment(pathC, 8, 32);
+	pathB = document.getElementById('pathB'),
+  pathC = document.getElementById('pathC'),
+	segmentA = new Segment(pathA, 8, 32),
+	segmentB = new Segment(pathB, 8, 32),
+	segmentC = new Segment(pathC, 8, 32);
 
 	function inAC(s) { s.draw('80% - 24', '80%', 0.3, {delay: 0.1, callback: function(){ inAC2(s) }}); }
 	function inAC2(s) { s.draw('100% - 54.5', '100% - 30.5', 0.6, {easing: d3_ease.ease('elastic-out', 1, 0.3)}); }

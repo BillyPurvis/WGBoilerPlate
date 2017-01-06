@@ -10,7 +10,6 @@
   </div>
 </template>
 
-<script src="../../../static/js/scripts.js" type="text/javascript"></script>
 <script>
 export default {
   data () {
@@ -28,10 +27,6 @@ export default {
 
   mounted: function () {
     this.svgMenu()
-  },
-
-  methods: {
-    svgMenu () {}
   }
 }
 </script>
