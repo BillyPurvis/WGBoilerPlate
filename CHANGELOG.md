@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - [Unreleased] - [Billy Purvis] - 06-01-2017
+
+### Changed
+- Sped up slider transition speed
+- Sped up slider auto-play speed
+
 ## [0.0.2] - [Unreleased] - [Gustavo Domaradzki] - 06-01-2017
 
 ### Added
